@@ -1,9 +1,9 @@
 //
 //  LpLincharDrawRactView.m
-//  Reha Mstim
+//  BLChartView
 //
-//  Created by longest on 2016/11/28.
-//  Copyright © 2016年 longest.Guangz. All rights reserved.
+//  Created by YuePr.Guangz on 2016/11/28.
+//  Copyright © 2016年 YuePr.Guangz. All rights reserved.
 //
 
 #import "LpLincharDrawRactView.h"
