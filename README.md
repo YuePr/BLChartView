@@ -1,61 +1,29 @@
-
-
-
-
 ![](https://img.shields.io/apm/l/vim-mode.svg)
 
-
-
 BLChartView
-
 =========================
-
 [![Build Status](https://travis-ci.org/meolu/walle-web.svg?branch=master)](https://travis-ci.org/meolu/walle-web)
-
 [![Packagist](https://img.shields.io/packagist/v/meolu/walle-web.svg)](https://packagist.org/packages/meolu/walle-web)
-
 [![Yii2](https://img.shields.io/badge/Powered_by-Yii_Framework-green.svg?style=flat)](http://www.yiiframework.com/)
-
-
 
 A brokenline view named "brokenLineChartView" for real-time communication between iPhone and peripherals.
 
 
-
-
-
-
-
 Quick Start
-
 -------------
-
-
-
 ```
-
 #define KPHASE_REST                       0X51
-
 #define KPHASE_RISE                        0X82
-
 #define KPHASE_HOLD                      0X83
-
 #define KPHASE_DOWN                     0X24
-
 #define KPHASE_WAIT                       0X16
-
 #define KPHASE_SLOT                      0X25
 
-
-
 [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(timerInterRuptFunction) userInfo:@{@"key":@"value"} repeats:true];
-
 -(void)timerInterRuptFunction{
-
 if (_lpLineChartDrawRactView != nil) {
 __weak typeof(self)weakSelf = self;
 _lpLineChartDrawRactView.blocksCurrentStatus = ^(Byte currentStatus){
-
 
 if ((currentStatus == KPHASE_WAIT)||(self.nemsItem.outputAmpere_CHA==0)) {
 [weakSelf.lpLineChartDrawRactView setState:KPHASE_WAIT StateElapsedTime:0.1];
@@ -77,7 +45,9 @@ weakSelf.ampereStatusLabel_CHA.noteStrLabel.text = currentStatus             ==K
 }
 ```
 
-<iframe height=716 width=402 src="https://github.com/YuePr/BLChartView/blob/master/images/003.gif">
+<!--<iframe height=716 width=402 src="https://github.com/YuePr/BLChartView/blob/master/images/003.gif">-->
+
+![](https://github.com/YuePr/BLChartView/blob/master/images/003.gif)
 
 
 
