@@ -1,10 +1,10 @@
-![](https://raw.github.com/meolu/walle-web/master/docs/logo.jpg)
+<!--![](https://raw.github.com/meolu/walle-web/master/docs/logo.jpg)-->
 
 BLChartView
 =========================
 ![](https://img.shields.io/apm/l/vim-mode.svg)
 <!--[![Build Status](https://travis-ci.org/meolu/walle-web.svg?branch=master)](https://travis-ci.org/meolu/walle-web)-->
-[![Yuepr](https://img.shields.io/badge/Powered_by-Yuepr_Framework-green.svg?style=flat)]
+[![](https://img.shields.io/badge/Powered_by-Yuepr_Framework-green.svg?style=flat)]
 
 A brokenline view named "brokenLineChartView" for real-time communication between iPhone and peripherals.
 
