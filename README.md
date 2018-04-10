@@ -1,7 +1,7 @@
 
 BLChartView
 =========================
-[![](https://img.shields.io/apm/l/vim-mode.svg)
+![](https://img.shields.io/apm/l/vim-mode.svg)
 [![Build Status](https://travis-ci.org/meolu/walle-web.svg?branch=master)](https://travis-ci.org/meolu/walle-web)
 [![Yii2](https://img.shields.io/badge/Powered_by-Yuepr_Framework-green.svg?style=flat)](http://www.yiiframework.com/)
 
@@ -10,7 +10,7 @@ A brokenline view named "brokenLineChartView" for real-time communication betwee
 
 Quick Start
 -------------
-```
+```objc
 #define KPHASE_REST                       0X51
 #define KPHASE_RISE                        0X82
 #define KPHASE_HOLD                      0X83
