@@ -4,7 +4,7 @@ BLChartView
 =========================
 <!--![](https://img.shields.io/apm/l/vim-mode.svg)-->
 <!--[![Build Status](https://travis-ci.org/meolu/walle-web.svg?branch=master)](https://travis-ci.org/meolu/walle-web)-->
-[![](https://img.shields.io/badge/Powered_by-Yuepr_Framework-green.svg?style=flat)]
+![](https://img.shields.io/badge/Powered_by-Yuepr_Framework-green.svg?style=flat)
 
 A brokenline view named "brokenLineChartView" for real-time communication between iPhone and peripherals.
 
@@ -45,7 +45,8 @@ Quick Start
     [_lpLineChartDrawRactView update];
 }
 ```
-
+How To
+-------------
 <!--<iframe height=716 width=402 src="https://github.com/YuePr/BLChartView/blob/master/images/003.gif">-->
 
 ![](https://github.com/YuePr/BLChartView/blob/master/images/003.gif)
